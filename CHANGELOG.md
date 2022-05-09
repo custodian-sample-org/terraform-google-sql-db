@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this
 project adheres to [Semantic Versioning](http://semver.org/).
 
+## [10.1.0](https://github.com/terraform-google-modules/terraform-google-sql-db/compare/v10.0.2...v10.1.0) (2022-05-09)
+
+
+### Features
+
+* Add a description variable for google_compute_global_address resource ([#299](https://github.com/terraform-google-modules/terraform-google-sql-db/issues/299)) ([fe91aa5](https://github.com/terraform-google-modules/terraform-google-sql-db/commit/fe91aa5093c03b8cc823c2f1f43c18f0b9d0812a))
+
 ### [10.0.2](https://github.com/terraform-google-modules/terraform-google-sql-db/compare/v10.0.1...v10.0.2) (2022-04-19)
 
 
