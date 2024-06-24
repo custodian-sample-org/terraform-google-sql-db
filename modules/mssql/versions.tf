@@ -20,12 +20,12 @@ terraform {
 
     google-beta = {
       source  = "hashicorp/google-beta"
-      version = "~> 3.60"
+      version = ">= 4.4.0, < 5.0"
     }
   }
 
   provider_meta "google-beta" {
-    module_name = "blueprints/terraform/terraform-google-sql-db:mssql/v8.0.0"
+    module_name = "blueprints/terraform/terraform-google-sql-db:mssql/v10.0.2"
   }
 
 }
